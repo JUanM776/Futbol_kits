@@ -3,27 +3,27 @@
 import Image from "next/image";
 
 const selecciones = [
-  { name: "Colombia Local", image: "/Selecciones/Colombia.jpg" },
-  { name: "Colombia Visitante", image: "/Selecciones/Colombia-visitante.jpg" },
-  { name: "Argentina", image: "/Selecciones/Argentina.jpg" },
-  { name: "Brasil", image: "/Selecciones/Brasil.jpg" },
-  { name: "Portugal", image: "/Selecciones/Portugal.jpg" },
-  { name: "España", image: "/Selecciones/España.jpg" },
-  { name: "Colombia Mujer", image: "/Selecciones/Colombia-mujer.jpeg" },
+  { name: "Colombia Local", image: "/selecciones/Colombia.jpg" },
+  { name: "Colombia Visitante", image: "/selecciones/Colombia-visitante.jpg" },
+  { name: "Argentina", image: "/selecciones/Argentina.jpg" },
+  { name: "Brasil", image: "/selecciones/Brasil.jpg" },
+  { name: "Portugal", image: "/selecciones/Portugal.jpg" },
+  { name: "España", image: "/selecciones/España.jpg" },
+  { name: "Colombia Mujer", image: "/selecciones/Colombia-mujer.jpeg" },
 ];
 
 const retro = [
-  { name: "Colombia 2007", image: "/Retro/Colombia-2007.jpg" },
-  { name: "Colombia 2007", image: "/Retro/Colombia-2007-hombre.jpg" },
-  { name: "Colombia 2001", image: "/Retro/Colombia-2001.jpeg" },
-  { name: "Colombia 1990", image: "/Retro/Colombia-1990.jpeg" },
+  { name: "Colombia 2007", image: "/retro/Colombia-2007.jpg" },
+  { name: "Colombia 2007", image: "/retro/Colombia-2007-hombre.jpg" },
+  { name: "Colombia 2001", image: "/retro/Colombia-2001.jpeg" },
+  { name: "Colombia 1990", image: "/retro/Colombia-1990.jpeg" },
 ];
 
 const buzos = [
-  { name: "Colombia", image: "/Buzos/colombia.jpeg" },
-  { name: "Argentina", image: "/Buzos/argentina.jpeg" },
-  { name: "Barcelona", image: "/Buzos/barcelona.jpeg" },
-  { name: "Atl. Nacional", image: "/Buzos/atletico-nacional.jpeg" },
+  { name: "Colombia", image: "/buzos/colombia.jpeg" },
+  { name: "Argentina", image: "/buzos/argentina.jpeg" },
+  { name: "Barcelona", image: "/buzos/barcelona.jpeg" },
+  { name: "Atl. Nacional", image: "/buzos/atletico-nacional.jpeg" },
 ];
 
 export default function CatalogoPage() {
@@ -250,3 +250,4 @@ export default function CatalogoPage() {
     </div>
   );
 }
+

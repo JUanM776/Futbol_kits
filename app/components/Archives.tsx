@@ -8,7 +8,7 @@ const seasons = [
     year: "25/26",
     title: "Selecciones",
     description: "La identidad de cada nación. Colores, texturas y orgullo en cada camiseta oficial.",
-    image: "/Selecciones/Colombia.jpg",
+    image: "/selecciones/Colombia.jpg",
     accent: "from-teal-900/30",
     href: "#selecciones",
   },
@@ -16,7 +16,7 @@ const seasons = [
     year: "Retro",
     title: "Archivo Fútbol",
     description: "Las eras que definieron el fútbol. Piezas clásicas reimaginadas con alma vintage.",
-    image: "/Retro/Colombia-2001.jpeg",
+    image: "/retro/Colombia-2001.jpeg",
     accent: "from-blue-900/30",
     href: "#colombia-retro",
   },
@@ -24,7 +24,7 @@ const seasons = [
     year: "Nuevo",
     title: "Buzos",
     description: "Entrenamiento y estilo. Piezas técnicas para dentro y fuera de la cancha.",
-    image: "/Buzos/barcelona.jpeg",
+    image: "/buzos/barcelona.jpeg",
     accent: "from-accent-red/30",
     href: "#buzos",
   },
@@ -126,3 +126,4 @@ export default function Archives() {
     </section>
   );
 }
+

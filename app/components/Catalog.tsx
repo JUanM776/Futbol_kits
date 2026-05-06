@@ -14,33 +14,33 @@ const sections: CatalogSection[] = [
     id: "selecciones",
     title: "Selecciones",
     products: [
-      { id: 1, name: "Colombia Local 25/26", team: "Colombia", image: "/Selecciones/Colombia.jpg", badge: "Nuevo" },
-      { id: 2, name: "Colombia Visitante 25/26", team: "Colombia", image: "/Selecciones/Colombia-visitante.jpg" },
-      { id: 3, name: "Argentina Local 25/26", team: "Argentina", image: "/Selecciones/Argentina.jpg" },
-      { id: 4, name: "Brasil Local 25/26", team: "Brasil", image: "/Selecciones/Brasil.jpg" },
-      { id: 25, name: "Portugal Local 25/26", team: "Portugal", image: "/Selecciones/Portugal.jpg" },
-      { id: 26, name: "España Local 25/26", team: "España", image: "/Selecciones/España.jpg" },
-      { id: 27, name: "Colombia Mujer 25/26", team: "Colombia", image: "/Selecciones/Colombia-mujer.jpeg" },
+      { id: 1, name: "Colombia Local 25/26", team: "Colombia", image: "/selecciones/Colombia.jpg", badge: "Nuevo" },
+      { id: 2, name: "Colombia Visitante 25/26", team: "Colombia", image: "/selecciones/Colombia-visitante.jpg" },
+      { id: 3, name: "Argentina Local 25/26", team: "Argentina", image: "/selecciones/Argentina.jpg" },
+      { id: 4, name: "Brasil Local 25/26", team: "Brasil", image: "/selecciones/Brasil.jpg" },
+      { id: 25, name: "Portugal Local 25/26", team: "Portugal", image: "/selecciones/Portugal.jpg" },
+      { id: 26, name: "España Local 25/26", team: "España", image: "/selecciones/España.jpg" },
+      { id: 27, name: "Colombia Mujer 25/26", team: "Colombia", image: "/selecciones/Colombia-mujer.jpeg" },
     ],
   },
   {
     id: "colombia-retro",
     title: "Colombia Retro",
     products: [
-      { id: 17, name: "Colombia Retro 2007", team: "Selección Colombia", image: "/Retro/Colombia-2007.jpg" },
-      { id: 18, name: "Colombia Retro 2007", team: "Selección Colombia", image: "/Retro/Colombia-2007-hombre.jpg" },
-      { id: 19, name: "Colombia Retro 2001", team: "Selección Colombia", image: "/Retro/Colombia-2001.jpeg" },
-      { id: 20, name: "Colombia Retro 1990", team: "Selección Colombia", image: "/Retro/Colombia-1990.jpeg" },
+      { id: 17, name: "Colombia Retro 2007", team: "Selección Colombia", image: "/retro/Colombia-2007.jpg" },
+      { id: 18, name: "Colombia Retro 2007", team: "Selección Colombia", image: "/retro/Colombia-2007-hombre.jpg" },
+      { id: 19, name: "Colombia Retro 2001", team: "Selección Colombia", image: "/retro/Colombia-2001.jpeg" },
+      { id: 20, name: "Colombia Retro 1990", team: "Selección Colombia", image: "/retro/Colombia-1990.jpeg" },
     ],
   },
   {
     id: "buzos",
     title: "Buzos",
     products: [
-      { id: 21, name: "Buzo Colombia 25/26", team: "Selección Colombia", image: "/Buzos/colombia.jpeg" },
-      { id: 22, name: "Buzo Argentina 25/26", team: "Selección Argentina", image: "/Buzos/argentina.jpeg" },
-      { id: 23, name: "Buzo Barcelona 25/26", team: "FC Barcelona", image: "/Buzos/barcelona.jpeg" },
-      { id: 24, name: "Buzo Atlético Nacional 25/26", team: "Atlético Nacional", image: "/Buzos/atletico-nacional.jpeg" },
+      { id: 21, name: "Buzo Colombia 25/26", team: "Selección Colombia", image: "/buzos/colombia.jpeg" },
+      { id: 22, name: "Buzo Argentina 25/26", team: "Selección Argentina", image: "/buzos/argentina.jpeg" },
+      { id: 23, name: "Buzo Barcelona 25/26", team: "FC Barcelona", image: "/buzos/barcelona.jpeg" },
+      { id: 24, name: "Buzo Atlético Nacional 25/26", team: "Atlético Nacional", image: "/buzos/atletico-nacional.jpeg" },
     ],
   },
 ];
@@ -92,3 +92,4 @@ export default function Catalog() {
     </div>
   );
 }
+
