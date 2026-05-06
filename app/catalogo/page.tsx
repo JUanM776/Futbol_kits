@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 const selecciones = [
@@ -235,18 +233,7 @@ export default function CatalogoPage() {
         </div>
       </section>
 
-      {/* Print styles */}
-      <style jsx global>{`
-        @media print {
-          body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-          .page { page-break-after: always; break-after: page; }
-          .page:last-child { page-break-after: avoid; }
-        }
-        @media screen {
-          .catalog-print { max-width: 100%; }
-          .page { border-bottom: 1px solid rgba(255,255,255,0.03); }
-        }
-      `}</style>
+      {/* Print styles handled via Tailwind print: utilities */}
     </div>
   );
 }
