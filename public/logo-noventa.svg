@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <!-- Wordmark: NOVENTA -->
+  <text x="0" y="44" font-family="Inter, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="6" fill="white">NOVENTA</text>
+  <!-- Accent line -->
+  <rect x="0" y="54" width="40" height="2.5" rx="1.25" fill="#14b8a6"/>
+  <!-- Subtle 90 mark -->
+  <text x="232" y="18" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="300" letter-spacing="2" fill="#14b8a6" opacity="0.7">90</text>
+</svg>

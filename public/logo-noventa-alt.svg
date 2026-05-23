@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 70" fill="none">
+  <!-- N O V E N T A text -->
+  <text x="0" y="48" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="600" letter-spacing="8" fill="white">N</text>
+  <!-- The O is replaced by a stylized 9 -->
+  <text x="42" y="48" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="300" letter-spacing="0" fill="#14b8a6">9</text>
+  <text x="68" y="48" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="600" letter-spacing="8" fill="white">VENTA</text>
+  <!-- Underline accent -->
+  <rect x="0" y="58" width="100%" height="1.5" fill="white" opacity="0.06"/>
+  <rect x="0" y="58" width="50" height="1.5" fill="#14b8a6" opacity="0.6"/>
+</svg>
