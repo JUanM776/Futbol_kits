@@ -42,7 +42,7 @@ export default function Header() {
       >
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img src="/logo-noventa-alt.svg" alt="Noventa" className="h-7" />
+          <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-9" />
         </a>
 
         {/* Desktop nav */}
