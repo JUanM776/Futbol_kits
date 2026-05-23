@@ -8,7 +8,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/n0venta.co_"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-white/[0.08] text-white/30 transition-all hover:border-white/20 hover:text-white"
@@ -38,6 +38,7 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 
 
