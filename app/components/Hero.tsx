@@ -62,9 +62,7 @@ export default function Hero() {
             </p>
 
             <h1 className="mt-5 max-w-2xl text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-8xl">
-              El Mundo de
-              <br />
-              FútbolKits
+              <img src="/logo-noventa.svg" alt="Noventa" className="h-14 sm:h-20 lg:h-24" />
             </h1>
 
             <p className="mt-6 max-w-md text-[15px] font-normal leading-relaxed text-text-secondary">
@@ -107,5 +105,6 @@ export default function Hero() {
     </section>
   );
 }
+
 
 

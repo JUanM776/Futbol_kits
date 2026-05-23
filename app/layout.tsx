@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FútbolKits — Premium Football Wear",
+  title: "Noventa — Premium Football Wear",
   description:
     "Camisetas de fútbol triple A. Calidad premium, estilo único.",
 };
@@ -25,5 +25,6 @@ export default function RootLayout({
     </html>
   );
 }
+
 
 

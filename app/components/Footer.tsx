@@ -2,8 +2,8 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/[0.04] py-12">
       <div className="mx-auto flex max-w-[1320px] flex-col items-center justify-between gap-6 px-6 sm:flex-row lg:px-10">
-        <a href="#" className="text-sm font-semibold tracking-wider text-white">
-          FútbolKits
+        <a href="#">
+          <img src="/logo-noventa-alt.svg" alt="Noventa" className="h-5" />
         </a>
 
         <div className="flex items-center gap-4">
@@ -32,11 +32,12 @@ export default function Footer() {
         </div>
 
         <p className="text-[10px] font-normal tracking-wider text-white/20">
-          © 2026 FútbolKits
+          © 2026 Noventa
         </p>
       </div>
     </footer>
   );
 }
+
 
 

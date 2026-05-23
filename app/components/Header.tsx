@@ -41,8 +41,8 @@ export default function Header() {
         }`}
       >
         {/* Logo */}
-        <a href="#" className="text-sm font-semibold tracking-wider text-white">
-          FútbolKits
+        <a href="#" className="flex items-center">
+          <img src="/logo-noventa-alt.svg" alt="Noventa" className="h-7" />
         </a>
 
         {/* Desktop nav */}
@@ -114,5 +114,6 @@ export default function Header() {
     </header>
   );
 }
+
 
 
