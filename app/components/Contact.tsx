@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const contactInfo = [
-  { label: "Email", value: "info@futbolkits.com", icon: "✉" },
+  { label: "Email", value: "n0vent906@gmail.com", icon: "✉" },
   { label: "Teléfono", value: "+57 300 000 0000", icon: "☎" },
   { label: "Ubicación", value: "Colombia", icon: "📍" },
 ];

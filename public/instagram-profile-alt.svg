@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f2a25"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with subtle glow -->
+  <rect width="400" height="400" fill="url(#bg-glow)"/>
+  
+  <!-- Hexagon filled accent -->
+  <polygon points="200,50 315,115 315,245 200,310 85,245 85,115" stroke="url(#glow)" stroke-width="2.5" fill="none"/>
+  
+  <!-- Inner hexagon subtle -->
+  <polygon points="200,75 295,128 295,232 200,285 105,232 105,128" stroke="#14b8a6" stroke-width="0.5" fill="#14b8a6" fill-opacity="0.04"/>
+  
+  <!-- 90 massive -->
+  <text x="200" y="210" font-family="Inter, Helvetica, Arial, sans-serif" font-size="130" font-weight="900" fill="white" text-anchor="middle">90</text>
+  
+  <!-- Horizontal line through -->
+  <line x1="120" y1="235" x2="280" y2="235" stroke="#14b8a6" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- NOVENTA -->
+  <text x="200" y="270" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="10" fill="white" text-anchor="middle" opacity="0.8">NOVENTA</text>
+  
+  <!-- Corner accents -->
+  <line x1="30" y1="30" x2="70" y2="30" stroke="#14b8a6" stroke-width="1" opacity="0.4"/>
+  <line x1="30" y1="30" x2="30" y2="70" stroke="#14b8a6" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="370" x2="330" y2="370" stroke="#14b8a6" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="370" x2="370" y2="330" stroke="#14b8a6" stroke-width="1" opacity="0.4"/>
+</svg>
