@@ -19,7 +19,7 @@ const sections: CatalogSection[] = [
       { id: 3, name: "Argentina Local 25/26", team: "Argentina", image: "/selecciones/Argentina.jpg" },
       { id: 4, name: "Brasil Local 25/26", team: "Brasil", image: "/selecciones/Brasil.jpg" },
       { id: 25, name: "Portugal Local 25/26", team: "Portugal", image: "/selecciones/Portugal.jpg" },
-      { id: 26, name: "España Local 25/26", team: "España", image: "/selecciones/España.jpg" },
+      { id: 26, name: "España Local 25/26", team: "España", image: "/selecciones/Espana.jpg" },
       { id: 27, name: "Colombia Mujer 25/26", team: "Colombia", image: "/selecciones/Colombia-mujer.jpeg" },
     ],
   },
