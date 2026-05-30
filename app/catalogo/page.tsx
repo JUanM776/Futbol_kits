@@ -105,12 +105,13 @@ export default function CatalogoPage() {
         <h2 className="text-4xl font-bold tracking-tight">FútbolKits</h2>
         <div className="mt-4 h-px w-12 bg-teal-400/40" />
         <p className="mt-6 text-sm font-light text-white/50">¿Te gustó algo? Escríbenos.</p>
-        <p className="mt-4 text-xs text-white/70">WhatsApp: +57 300 000 0000</p>
+        <p className="mt-4 text-xs text-white/70">WhatsApp: +57 322 679 3199</p>
         <p className="mt-1 text-xs text-white/70">Instagram: @futbolkits</p>
         <p className="mt-8 text-[10px] text-white/20">© 2026 FútbolKits</p>
       </section>
     </div>
   );
 }
+
 
 

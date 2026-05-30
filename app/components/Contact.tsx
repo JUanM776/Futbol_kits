@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const contactInfo = [
   { label: "Email", value: "n0vent906@gmail.com", icon: "✉" },
-  { label: "Teléfono", value: "+57 300 000 0000", icon: "☎" },
+  { label: "Teléfono", value: "+57 322 679 3199", icon: "☎" },
   { label: "Ubicación", value: "Colombia", icon: "📍" },
 ];
 
@@ -123,6 +123,7 @@ export default function Contact() {
     </section>
   );
 }
+
 
 
 
