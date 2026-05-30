@@ -21,6 +21,8 @@ const sections: CatalogSection[] = [
       { id: 25, name: "Portugal Local 25/26", team: "Portugal", image: "/selecciones/Portugal.jpg" },
       { id: 26, name: "España Local 25/26", team: "España", image: "/selecciones/Espana.jpg" },
       { id: 27, name: "Colombia Mujer 25/26", team: "Colombia", image: "/selecciones/Colombia-mujer.jpeg" },
+      { id: 28, name: "Alemania Local 25/26", team: "Alemania", image: "/selecciones/alemania.jpg" },
+      { id: 29, name: "Italia Local 25/26", team: "Italia", image: "/selecciones/italia.jpg" },
     ],
   },
   {
@@ -31,6 +33,7 @@ const sections: CatalogSection[] = [
       { id: 18, name: "Colombia Retro 2007", team: "Selección Colombia", image: "/retro/Colombia-2007-hombre.jpg" },
       { id: 19, name: "Colombia Retro 2001", team: "Selección Colombia", image: "/retro/Colombia-2001.jpeg" },
       { id: 20, name: "Colombia Retro 1990", team: "Selección Colombia", image: "/retro/Colombia-1990.jpeg" },
+      { id: 30, name: "Atlético Nacional Retro", team: "Atlético Nacional", image: "/retro/ateltico_nacional.jpeg" },
     ],
   },
   {

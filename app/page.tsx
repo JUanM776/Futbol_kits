@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Archives from "./components/Archives";
 import Catalog from "./components/Catalog";
+import VideoShowcase from "./components/VideoShowcase";
 import HowToBuy from "./components/HowToBuy";
 import WhyUs from "./components/WhyUs";
 import About from "./components/About";
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Archives />
         <Catalog />
+        <VideoShowcase />
         <HowToBuy />
         <WhyUs />
         <About />
