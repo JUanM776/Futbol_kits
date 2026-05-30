@@ -7,6 +7,8 @@ export default function CatalogoPage() {
     { name: "Portugal", image: "/selecciones/Portugal.jpg" },
     { name: "España", image: "/selecciones/Espana.jpg" },
     { name: "Colombia Mujer", image: "/selecciones/Colombia-mujer.jpeg" },
+    { name: "Alemania", image: "/selecciones/alemania.jpg" },
+    { name: "Italia", image: "/selecciones/italia.jpg" },
   ];
 
   const retro = [
@@ -14,6 +16,7 @@ export default function CatalogoPage() {
     { name: "Colombia 2007", image: "/retro/Colombia-2007-hombre.jpg" },
     { name: "Colombia 2001", image: "/retro/Colombia-2001.jpeg" },
     { name: "Colombia 1990", image: "/retro/Colombia-1990.jpeg" },
+    { name: "Atl. Nacional Retro", image: "/retro/ateltico_nacional.jpeg" },
   ];
 
   const buzos = [
@@ -27,10 +30,10 @@ export default function CatalogoPage() {
     <div className="min-h-screen bg-[#050505] text-white">
       {/* COVER */}
       <section className="flex h-screen flex-col items-center justify-center text-center">
-        <p className="text-[10px] font-medium tracking-[0.5em] uppercase text-teal-400">
+        <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-16" />
+        <p className="mt-6 text-[10px] font-medium tracking-[0.5em] uppercase text-teal-400">
           Catálogo Temporada 2025/26
         </p>
-        <h1 className="mt-4 text-6xl font-bold tracking-tight">FútbolKits</h1>
         <p className="mt-4 max-w-md text-sm font-light text-white/50">
           Camisetas triple A de los mejores equipos del mundo. Calidad premium, estilo único.
         </p>
@@ -61,11 +64,11 @@ export default function CatalogoPage() {
       {/* RETRO */}
       <section className="px-8 py-16">
         <p className="text-[9px] font-medium tracking-[0.5em] uppercase text-teal-400">Archivo</p>
-        <h2 className="mt-2 text-3xl font-bold tracking-tight">Colombia Retro</h2>
+        <h2 className="mt-2 text-3xl font-bold tracking-tight">Retro</h2>
         <div className="mt-2 h-[2px] w-10 bg-teal-400/50" />
 
         <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {retro.map((item, i) => (
+          {retro.map((item) => (
             <div key={item.image} className="relative overflow-hidden rounded-xl">
               <img
                 src={item.image}
@@ -102,17 +105,13 @@ export default function CatalogoPage() {
 
       {/* CONTACTO */}
       <section className="flex flex-col items-center justify-center px-8 py-20 text-center">
-        <h2 className="text-4xl font-bold tracking-tight">FútbolKits</h2>
+        <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-10" />
         <div className="mt-4 h-px w-12 bg-teal-400/40" />
         <p className="mt-6 text-sm font-light text-white/50">¿Te gustó algo? Escríbenos.</p>
         <p className="mt-4 text-xs text-white/70">WhatsApp: +57 322 679 3199</p>
-        <p className="mt-1 text-xs text-white/70">Instagram: @futbolkits</p>
-        <p className="mt-8 text-[10px] text-white/20">© 2026 FútbolKits</p>
+        <p className="mt-1 text-xs text-white/70">Instagram: @n0venta.co_</p>
+        <p className="mt-8 text-[10px] text-white/20">© 2026 Noventa</p>
       </section>
     </div>
   );
 }
-
-
-
-
