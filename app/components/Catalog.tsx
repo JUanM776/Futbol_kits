@@ -55,6 +55,7 @@ const sections: CatalogSection[] = [
       { id: 51, name: "River Plate Visitante 25/26", team: "River Plate", image: "/equipos_suramericanos/River_plate_visitante-2025.jpeg" },
       { id: 52, name: "Corinthians Local 25/26", team: "Corinthians", image: "/equipos_suramericanos/Corinthians_local-2025.jpeg" },
       { id: 53, name: "Fluminense 2007", team: "Fluminense", image: "/equipos_suramericanos/Fluminense-2007.jpeg" },
+      { id: 54, name: "Atlético Mineiro Negra 25/26", team: "Atlético Mineiro", image: "/equipos_suramericanos/Atletico_mineiro_negra-2025.jpg" },
     ],
   },
   {
@@ -101,6 +102,8 @@ const sections: CatalogSection[] = [
     title: "Equipaciones Niños",
     products: [
       { id: 100, name: "Bayern München 25/26", team: "Bayern München", image: "/equipaciones_niño/Bayern_munich-2025.jpeg", badge: "Kids" },
+      { id: 101, name: "Brasil Local 25/26", team: "Brasil", image: "/equipaciones_niño/brasil_local-2026.jpeg", badge: "Kids" },
+      { id: 102, name: "Colombia Centenario", team: "Colombia", image: "/equipaciones_niño/Colombia_centenario_niño.jpeg", badge: "Kids" },
     ],
   },
 ];
