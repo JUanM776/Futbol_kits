@@ -42,7 +42,7 @@ export default function Header() {
       >
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-9" />
+          <img src="/logo-nineteen.svg" alt="Nineteensports" className="h-9" />
         </a>
 
         {/* Desktop nav */}
@@ -114,6 +114,8 @@ export default function Header() {
     </header>
   );
 }
+
+
 
 
 

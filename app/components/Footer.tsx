@@ -3,12 +3,12 @@ export default function Footer() {
     <footer className="border-t border-white/[0.04] py-12">
       <div className="mx-auto flex max-w-[1320px] flex-col items-center justify-between gap-6 px-6 sm:flex-row lg:px-10">
         <a href="#">
-          <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-7" />
+          <img src="/logo-nineteen.svg" alt="Nineteensports" className="h-7" />
         </a>
 
         <div className="flex items-center gap-4">
           <a
-            href="https://www.instagram.com/n0venta.co_"
+            href="https://www.instagram.com/nineteensports"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-white/[0.08] text-white/30 transition-all hover:border-white/20 hover:text-white"
@@ -32,12 +32,14 @@ export default function Footer() {
         </div>
 
         <p className="text-[10px] font-normal tracking-wider text-white/20">
-          © 2026 Noventa
+          © 2026 Nineteensports
         </p>
       </div>
     </footer>
   );
 }
+
+
 
 
 

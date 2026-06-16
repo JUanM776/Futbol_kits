@@ -30,7 +30,7 @@ export default function CatalogoPage() {
     <div className="min-h-screen bg-[#050505] text-white">
       {/* COVER */}
       <section className="flex h-screen flex-col items-center justify-center text-center">
-        <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-16" />
+        <img src="/logo-nineteen.svg" alt="Nineteensports" className="h-16" />
         <p className="mt-6 text-[10px] font-medium tracking-[0.5em] uppercase text-teal-400">
           Catálogo Temporada 2025/26
         </p>
@@ -105,13 +105,15 @@ export default function CatalogoPage() {
 
       {/* CONTACTO */}
       <section className="flex flex-col items-center justify-center px-8 py-20 text-center">
-        <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-10" />
+        <img src="/logo-nineteen.svg" alt="Nineteensports" className="h-10" />
         <div className="mt-4 h-px w-12 bg-teal-400/40" />
         <p className="mt-6 text-sm font-light text-white/50">¿Te gustó algo? Escríbenos.</p>
         <p className="mt-4 text-xs text-white/70">WhatsApp: +57 322 679 3199</p>
-        <p className="mt-1 text-xs text-white/70">Instagram: @n0venta.co_</p>
-        <p className="mt-8 text-[10px] text-white/20">© 2026 Noventa</p>
+        <p className="mt-1 text-xs text-white/70">Instagram: @nineteensports</p>
+        <p className="mt-8 text-[10px] text-white/20">© 2026 Nineteensports</p>
       </section>
     </div>
   );
 }
+
+

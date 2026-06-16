@@ -62,7 +62,7 @@ export default function Hero() {
             </p>
 
             <h1 className="mt-5">
-              <img src="/logo-noventa-v5.svg" alt="Noventa" className="h-16 sm:h-20 lg:h-24" />
+              <img src="/logo-nineteen.svg" alt="Nineteensports" className="h-16 sm:h-20 lg:h-24" />
             </h1>
 
             <p className="mt-6 max-w-md text-[15px] font-normal leading-relaxed text-text-secondary">
@@ -105,6 +105,8 @@ export default function Hero() {
     </section>
   );
 }
+
+
 
 
 
