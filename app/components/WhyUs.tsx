@@ -7,7 +7,7 @@ const reasons = [
   { icon: "/icons/truck.svg", title: "Envío Rápido", desc: "Entrega en 3-5 días hábiles." },
   { icon: "/icons/originales.svg", title: "Calidad AAA", desc: "Camisetas triple A de la mejor calidad." },
   { icon: "/icons/devoluciones.svg", title: "Devoluciones", desc: "30 días para cambios sin complicaciones." },
-  { icon: "/icons/credit-card.svg", title: "Pago Seguro", desc: "Todas las tarjetas aceptadas." },
+  { icon: "/icons/credit-card.svg", title: "Todo tipo de crédito", desc: "Manejamos todo tipo de crédito para tu comodidad." },
 ];
 
 export default function WhyUs() {
