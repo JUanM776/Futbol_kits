@@ -5,8 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const catalogCategories = [
   { name: "Selecciones", href: "#selecciones" },
+  { name: "Europeos", href: "#equipos-europeos" },
+  { name: "Suramericanos", href: "#equipos-suramericanos" },
   { name: "Retro", href: "#colombia-retro" },
+  { name: "Ediciones Especiales", href: "#ediciones-especiales" },
   { name: "Buzos", href: "#buzos" },
+  { name: "Niños", href: "#equipaciones-ninos" },
 ];
 
 const navLinks = [

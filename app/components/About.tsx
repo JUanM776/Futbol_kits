@@ -4,11 +4,15 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const photos = [
-  "/acerca/acercade-1.jpeg",
-  "/acerca/acercade-2.jpeg",
-  "/acerca/hero-1.jpeg",
-  "/acerca/hero-2.jpeg",
-  "/acerca/hero-3.jpeg",
+  "/modelo.jpeg",
+  "/modelo_1.jpeg",
+  "/modelo_2.jpeg",
+  "/modelo_3.jpeg",
+  "/modelo_4.jpeg",
+  "/modelo_5.jpeg",
+  "/modelo_6.jpeg",
+  "/modelo_7.jpeg",
+  "/modelo_8.jpeg",
 ];
 
 const marqueePhotos = [...photos, ...photos];
