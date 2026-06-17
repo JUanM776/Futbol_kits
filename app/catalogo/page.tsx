@@ -18,7 +18,9 @@ export default function CatalogoPage() {
     { name: "Real Madrid Local", image: "/equipos_europeos/Real_madrid_local-2025.jpeg" },
     { name: "Real Madrid Visitante", image: "/equipos_europeos/Real_madrid_visitante-2025.jpeg" },
     { name: "Real Madrid 2006", image: "/equipos_europeos/Real_madrid_local-2006.jpeg" },
-    { name: "Barcelona", image: "/equipos_europeos/Barcelona-2025.jpeg" },
+    { name: "Barcelona 25/26", image: "/equipos_europeos/Barcelona-2025.jpeg" },
+    { name: "Barcelona 2026", image: "/equipos_europeos/Barcelona-2026.jpeg" },
+    { name: "Barcelona 2015", image: "/equipos_europeos/Barcelona-2015.jpeg" },
     { name: "Liverpool Local", image: "/equipos_europeos/Liverpool_local-2026.jpeg" },
     { name: "Liverpool Verde", image: "/equipos_europeos/Liverpool_verde-2025.jpeg" },
     { name: "Arsenal Local", image: "/equipos_europeos/Arsenal_local-2026.jpeg" },
@@ -72,6 +74,7 @@ export default function CatalogoPage() {
     { name: "Bayern München", image: "/equipaciones_niño/Bayern_munich-2025.jpeg" },
     { name: "Brasil Local", image: "/equipaciones_niño/brasil_local-2026.jpeg" },
     { name: "Colombia Centenario", image: "/equipaciones_niño/Colombia_centenario_niño.jpeg" },
+    { name: "Barcelona", image: "/equipaciones_niño/Barcelona-2026.jpeg" },
   ];
 
   return (

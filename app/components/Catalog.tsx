@@ -36,6 +36,8 @@ const sections: CatalogSection[] = [
       { id: 31, name: "Real Madrid Visitante 25/26", team: "Real Madrid", image: "/equipos_europeos/Real_madrid_visitante-2025.jpeg" },
       { id: 32, name: "Real Madrid Local 2006", team: "Real Madrid", image: "/equipos_europeos/Real_madrid_local-2006.jpeg" },
       { id: 33, name: "Barcelona Local 25/26", team: "FC Barcelona", image: "/equipos_europeos/Barcelona-2025.jpeg" },
+      { id: 43, name: "Barcelona 2015", team: "FC Barcelona", image: "/equipos_europeos/Barcelona-2015.jpeg" },
+      { id: 44, name: "Barcelona 25/26", team: "FC Barcelona", image: "/equipos_europeos/Barcelona-2026.jpeg" },
       { id: 34, name: "Liverpool Local 25/26", team: "Liverpool", image: "/equipos_europeos/Liverpool_local-2026.jpeg" },
       { id: 35, name: "Liverpool Verde 25/26", team: "Liverpool", image: "/equipos_europeos/Liverpool_verde-2025.jpeg" },
       { id: 36, name: "Arsenal Local 25/26", team: "Arsenal", image: "/equipos_europeos/Arsenal_local-2026.jpeg" },
@@ -104,6 +106,7 @@ const sections: CatalogSection[] = [
       { id: 100, name: "Bayern München 25/26", team: "Bayern München", image: "/equipaciones_niño/Bayern_munich-2025.jpeg", badge: "Kids" },
       { id: 101, name: "Brasil Local 25/26", team: "Brasil", image: "/equipaciones_niño/brasil_local-2026.jpeg", badge: "Kids" },
       { id: 102, name: "Colombia Centenario", team: "Colombia", image: "/equipaciones_niño/Colombia_centenario_niño.jpeg", badge: "Kids" },
+      { id: 103, name: "Barcelona 25/26", team: "FC Barcelona", image: "/equipaciones_niño/Barcelona-2026.jpeg", badge: "Kids" },
     ],
   },
 ];
