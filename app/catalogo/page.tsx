@@ -114,7 +114,7 @@ export default function CatalogoPage() {
           <div className="mt-6 h-px w-12 bg-teal-400/30 mx-auto" />
           <p className="mt-8 text-[13px] font-light text-white/50">¿Te gustó algo? Escríbenos.</p>
           <div className="mt-6 flex flex-col items-center gap-2">
-            <p className="text-[12px] font-medium text-white/70">WhatsApp: +57 320 237 1435</p>
+            <p className="text-[12px] font-medium text-white/70">WhatsApp: +57 322 679 3199</p>
             <p className="text-[12px] font-medium text-white/70">Instagram: @n0venta.co_</p>
           </div>
           <p className="mt-12 text-[9px] tracking-wider text-white/15">
@@ -153,3 +153,4 @@ function CatalogSection({ label, title, items }: { label: string; title: string;
     </section>
   );
 }
+
